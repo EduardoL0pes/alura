@@ -1,1 +1,5 @@
-# alura
+# Estudo focado
+
+### Loop
+### DOM
+### Condicionais
