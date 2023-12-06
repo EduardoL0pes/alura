@@ -11,8 +11,8 @@ btnAdicionarTarefa.addEventListener('click', () => {
 adicionarTarefa.addEventListener('submit', (evento) => {
     evento.preventDefault();
     const tarefa = {
-        descrição: tarefas.value
+        descricao: textarea.value
     };
     tarefas.push(tarefa)
-    localStorage.setItem('tarefas', tarefas);
+    localStorage.setItem('tarefas', JSON.stringify(tarefas));
 });
